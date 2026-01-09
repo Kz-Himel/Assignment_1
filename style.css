@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header Styling */
@@ -182,4 +183,73 @@ header .hero {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     transform: scale(1.05);
+}
+
+
+/* MAIN SECTION STYLING */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+main p {
+    color: #627382;
+}
+
+/* Notes Section Styling */
+main .notes {
+    padding: 120px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes .notes_heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.notes_heading h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.notes .notes_container {
+    display: flex;
+    gap: 24px;
+}
+
+.notes_container .notes_card {
+    height: 300px;
+    width: 322px;
+    padding: 24px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px 0 #1f1f1f11;
+}
+
+.notes_card h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.notes_card .img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #f95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
