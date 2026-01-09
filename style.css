@@ -51,3 +51,135 @@ nav button {
     border: none;
     border-radius: 4px;
 }
+
+/* Hero Section */
+header .hero {
+    background: url(assets/hero-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    /* height: 674px; */
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero_container {
+    width: 1360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 120px 0 150px 0;
+}
+
+.hero_container .hero_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero_content .hero_top {
+    width: 235px;
+    height: 35px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    color: #30b868;
+    border-radius: 50px;
+}
+
+/* Hero top dot */
+.hero_top .dot_container {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #dde6e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot_container .dot_outer {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #7bddb1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot_outer .dot_inner {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #30b868;
+}
+
+.hero_content .hero_heading {
+    width: 770px;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero_heading #text_green {
+    color: #30b868;
+}
+
+.hero_content .hero_text {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+}
+
+/* Hero Buttons */
+.hero_container .hero_buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.hero_buttons .btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.hero_buttons .left_btn {
+    background: #30b868;
+}
+
+.hero_buttons .right_btn {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.right_btn i {
+    font-size: 20px;
+}
+
+/* Hero Buttons Hover */
+.left_btn:hover {
+    background: #0da04a;
+    transform: scale(1.05);
+}
+
+.right_btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transform: scale(1.05);
+}
