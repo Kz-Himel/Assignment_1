@@ -94,6 +94,7 @@ header .hero {
     background: #fff;
     color: #30b868;
     border-radius: 50px;
+    overflow-y: hidden;
 }
 
 /* Hero top dot */
