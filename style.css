@@ -202,6 +202,7 @@ main p {
 
 /* Notes Section Styling */
 main .notes {
+    width: 1360px;
     padding: 0 120px;
     padding-top: 0;
     display: flex;
