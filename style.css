@@ -337,3 +337,62 @@ main .brain {
     padding-top: 60px;
 }
 
+
+/* Footer Styling */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 120px 30px 120px;
+    background-color: rgb(24, 21, 43);
+}
+
+footer .footer_content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.footer_content .footer_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1360px;
+}
+
+.footer_top .social_icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social_icons h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.social_icons .icons_container {
+    width: 92px;
+    height: 20px;
+    gap: 16px;
+}
+
+.icons_container i {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.footer_content .footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 30px;
+    border-top: 3px solid rgb(50, 76, 126);
+    line-height: 24px;
+}
+
